@@ -15,8 +15,8 @@
 <meta property="og:site_name" content="福岡ゴスペルクリスマス">
 <meta property="og:title" content="福岡ゴスペルクリスマス2026｜12.19 Sat.">
 <meta property="og:description" content="2026年12月19日（土）西南コミュニティセンターで開催。若い世代のゴスペルクワイアとゲストミュージシャンが届けるクリスマスコンサート。">
-<meta property="og:url" content="https://knockj.github.io/fukuoka-gospel-christmas/">
-<meta property="og:image" content="https://knockj.github.io/fukuoka-gospel-christmas/img/ogp.jpg">
+<meta property="og:url" content="https://knockj.github.io/Fukuoka_Gospel_Christmas/">
+<meta property="og:image" content="https://knockj.github.io/Fukuoka_Gospel_Christmas/img/ogp.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -71,6 +71,7 @@ a:hover{color:var(--cream)}
 .btn.sm{min-height:38px;padding:7px 16px;font-size:13px}
 .btn.lg{min-height:54px;padding:14px 32px;font-size:17px}
 @media (min-width:880px){.links{display:flex}}
+@media (max-width:360px){.brand{font-size:17px}.btn.sm{padding:7px 12px;font-size:12px}}
 
 /* hero */
 .hero{position:relative;min-height:100svh;display:flex;align-items:center;justify-content:center;overflow:hidden;isolation:isolate;padding:112px 0 64px}
@@ -128,7 +129,6 @@ p{margin:0}
 .member p{font-size:14px;line-height:1.85;color:var(--sub)}
 .member .parts{margin-top:4px;display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14px;color:var(--sub)}
 .member .parts b{font-family:var(--latin);font-weight:700;font-size:13px;letter-spacing:.08em;color:var(--gold);margin-right:6px}
-@media (min-width:640px){
 /* program */
 .flow{list-style:none;margin:0 auto;padding:0;max-width:760px;position:relative}
 .flow::before{content:"";position:absolute;left:23px;top:10px;bottom:10px;width:1px;background:var(--gold-soft)}
@@ -168,9 +168,13 @@ p{margin:0}
 .ticket .fine{margin-top:16px;font-size:13px;color:var(--muted)}
 
 /* access */
+.box{padding:26px 24px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.box h3{margin:6px 0 10px;font-size:22px;font-weight:800;line-height:1.45}
+.box .tag{font-family:var(--latin);font-weight:700;font-size:14px;letter-spacing:.18em;color:var(--gold)}
+.box p{font-size:15px;color:var(--sub)}
 .access{display:grid;gap:18px}
 @media (min-width:860px){.access{grid-template-columns:1.2fr 1fr}}
-.access .box h3{font-size:26px}
+.access .box h3{font-size:clamp(20px,5.4vw,26px)}
 .addr{font-size:16px;color:var(--sub)}
 .route{margin-top:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-weight:700}
 .route .pill{padding:4px 14px;border-radius:999px;border:1px solid var(--gold-soft);font-size:14px;color:var(--gold)}

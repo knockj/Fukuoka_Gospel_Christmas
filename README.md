@@ -20,19 +20,19 @@ img/
 
 ## GitHub Pages で公開する手順
 
-1. GitHub で新しいリポジトリを作成（名前の例：`fukuoka-gospel-christmas`、公開設定は **Public**）
+1. GitHub で新しいリポジトリを作成（このサイトは `Fukuoka_Gospel_Christmas`、公開設定は **Public**）
 2. 「Add file」→「Upload files」から、このフォルダの中身をすべてドラッグ＆ドロップして「Commit changes」
    - `.nojekyll` は隠しファイルなので、見えない場合はなくても動きます
 3. リポジトリの「Settings」→「Pages」を開く
 4. 「Build and deployment」の Source を **Deploy from a branch**、Branch を **main / (root)** にして「Save」
-5. 1〜2分後、https://knockj.github.io/fukuoka-gospel-christmas/ で公開されます
+5. 1〜2分後、https://knockj.github.io/Fukuoka_Gospel_Christmas/ で公開されます
 
 ## 公開URL
 
-https://knockj.github.io/fukuoka-gospel-christmas/
+https://knockj.github.io/Fukuoka_Gospel_Christmas/
 
 LINE や Instagram でシェアしたときのサムネイル（`img/ogp.jpg`）も、このURLで設定済みです。
-リポジトリ名を `fukuoka-gospel-christmas` 以外にした場合は、`index.html` 上部の `og:url` と `og:image` の2か所も合わせて変更してください。
+リポジトリ名を `Fukuoka_Gospel_Christmas` から変える場合は、`index.html` 上部の `og:url` と `og:image` の2か所も合わせて変更してください。
 
 ## よく変える場所
 
